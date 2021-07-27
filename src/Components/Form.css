@@ -1,0 +1,12 @@
+.NewTaskInput {
+    margin-left:80px;
+    width: 15rem;
+    font-size: 20px;
+    height: 25px;
+}
+
+.NewTaskButton {
+    height: 30px;
+    font-size: 20px;
+    width: 5rem;
+}
