@@ -6,7 +6,7 @@ button {
     margin-left: 10px;
 }
 
-label {
+.todo-label {
     font-size: 28px;
     width: 200px;
     padding: 1rem;

@@ -101,12 +101,14 @@ const App = (props) => {
       <div className="form-wrapper">
         <Form addTask={addTask} />
       </div>
-      <div className="filters btn-group stack-exception">
-        {filterList}
+      <div className="filterList">
+        <div className="filters">
+          {filterList}
+        </div>
+        <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
+          {headingText}
+        </h2>
       </div>
-      <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
-        {headingText}
-      </h2>
       <ul>{taskList}</ul>
     </div>
   );

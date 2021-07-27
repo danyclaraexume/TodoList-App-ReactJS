@@ -18,6 +18,12 @@ ul {
 .form-wrapper {
   margin-left: 30%;
   width: 40%;
-  /* border: solid 1px rgb(5, 31, 179); */
+  text-align: center;
+}
+
+.filterList {
+  margin-top: 20px;
+  margin-left: 30%;
+  width: 40%;
   text-align: center;
 }
